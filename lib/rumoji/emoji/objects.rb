@@ -334,6 +334,22 @@ module Rumoji
       self.new("\u{1f396}", [:military_medal, :medal], "MILITARY MEDAL"),
       self.new("\u{1f3c5}", [:sports_medal], "SPORTS MEDAL"),
       self.new("\u{26f8}", [:ice_skate], "ICE SKATE"),
+      self.new("\u{1F95D}", [:kiwifruit] ),
+      self.new("\u{1F951}", [:avocado] ),
+      self.new("\u{1F952}", [:cucumber] ),
+      self.new("\u{1F955}", [:carrot] ),
+      self.new("\u{1F956}", [:baguette_bread] ),
+      self.new("\u{1F954}", [:potato] ),
+      self.new("\u{1F95A}", [:egg] ),
+      self.new("\u{1F95C}", [:peanuts] ),
+      self.new("\u{1F953}", [:bacon] ),
+      self.new("\u{1F950}", [:croissant] ),
+      self.new("\u{1F95E}", [:pancakes] ),
+      self.new("\u{1F957}", [:green_salad] ),
+      self.new("\u{1F959}", [:stuffed_flatbread] ),
+      self.new("\u{1F943}", [:tumbler_glass] ),
+      self.new("\u{1F942}", [:clinking_glasses] ),
+      self.new("\u{1F95B}", [:glass_of_milk] )
     ]
   end
 end
