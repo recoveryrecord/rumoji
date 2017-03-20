@@ -241,7 +241,8 @@ module Rumoji
       self.new("\u{1F468 200D 2764 FE0F 200D 1F48B 200D 1F468}", [:"man-kiss-man"], "MAN KISS MAN"),
       self.new("\u{1F469 200D 2764 FE0F 200D 1F469}", [:"woman-heart-woman"], "WOMAN HEART WOMAN"),
       self.new("\u{1F469 200D 2764 FE0F 200D 1F48B 200D 1F469}", [:"woman-kiss-woman"], "WOMAN KISS WOMAN"),
-      self.new("\u{1F922}", [:nauseated_face], "NAUSEATED FACE")
+      self.new("\u{1F922}", [:nauseated_face], "NAUSEATED FACE"),
+      self.new("\u{u2639 FE0F}", [:frowning_face], "WHITE FROWNING FACE")
     ]
   end
 end
