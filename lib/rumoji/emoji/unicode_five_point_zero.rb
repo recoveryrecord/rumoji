@@ -3,7 +3,7 @@ require 'set'
 
 module Rumoji
   class Emoji
-    PEOPLE = SortedSet[
+    UNICODE_FIVE_POINT_ZERO = SortedSet[
       self.new("\u{1F600}", [:grinning_face]),
       self.new("\u{1F601}", [:beaming_face_with_smiling_eyes]),
       self.new("\u{1F602}", [:face_with_tears_of_joy]),
