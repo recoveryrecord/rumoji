@@ -48,6 +48,7 @@ module Rumoji
       self.new("\u{1F622}", [:cry], "CRYING FACE"),
       self.new("\u{1F62D}", [:sob], "LOUDLY CRYING FACE"),
       self.new("\u{1F602}", [:joy], "FACE WITH TEARS OF JOY"),
+      self.new("\u{1F923}", [:rofl], "ROLLING ON THE FLOOR LAUGHING"),
       self.new("\u{1F632}", [:astonished], "ASTONISHED FACE"),
       self.new("\u{1F631}", [:scream], "FACE SCREAMING IN FEAR"),
       self.new("\u{1F62B}", [:tired_face]),
@@ -58,6 +59,7 @@ module Rumoji
       self.new("\u{1F60B}", [:yum], "FACE SAVOURING DELICIOUS FOOD"),
       self.new("\u{1F637}", [:mask], "FACE WITH MEDICAL MASK"),
       self.new("\u{1F60E}", [:sunglasses], "SMILING FACE WITH SUNGLASSES"),
+      self.new("\u{1F921}", [:clown_face], "CLOWN FACE"),
       self.new("\u{1F635}", [:dizzy_face]),
       self.new("\u{1F47F}", [:imp]),
       self.new("\u{1F608}", [:smiling_imp], "SMILING FACE WITH HORNS"),
@@ -117,6 +119,7 @@ module Rumoji
       self.new("\u{1F44E}", [:thumbsdown, :"-1"], "THUMBS DOWN SIGN"),
       self.new("\u{1F44C}", [:ok_hand], "OK HAND SIGN"),
       self.new("\u{1F44A}", [:punch, :facepunch], "FISTED HAND SIGN"), # "punch
+      self.new("\u{1F91D}", [:handshake], "HANDSHAKE"),
       self.new("\u{270A}" , [:fist], "RAISED FIST"),
       self.new("\u{270C}" , [:v], "VICTORY HAND"),
       self.new("\u{1F44B}", [:wave], "WAVING HAND SIGN"),
@@ -164,7 +167,7 @@ module Rumoji
       self.new("\u{1F473}", [:man_with_turban]),
       self.new("\u{1F477}", [:construction_worker]),
       self.new("\u{1F46E}", [:cop], "POLICE OFFICER"),
-      self.new("\u{1F47C}", [:angel], "BABY ANGEL"),
+      self.new("\u{1F47C}", [:baby_angel], "BABY ANGEL"),
       self.new("\u{1F478}", [:princess]),
       self.new("\u{1F595}", [:middle_finger], "REVERSED HAND WITH MIDDLE FINGER EXTENDED"),
       self.new("\u{1F596}", [:vulcan_salute], "RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS"), # vulcan salute

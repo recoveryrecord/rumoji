@@ -60,8 +60,9 @@ module Rumoji
     autoload :OBJECTS, 'rumoji/emoji/objects'
     autoload :PLACES, 'rumoji/emoji/places'
     autoload :SYMBOLS, 'rumoji/emoji/symbols'
+    autoload :UNICODE_FIVE_POINT_ZERO, 'rumoji/emoji/unicode_five_point_zero'
 
-    ALL = PEOPLE | NATURE | OBJECTS | PLACES | SYMBOLS
+    ALL = PEOPLE | NATURE | OBJECTS | PLACES | SYMBOLS | UNICODE_FIVE_POINT_ZERO
 
     ALL_REGEXP = Regexp.new(ALL.map(&:string).join('|'))
 
